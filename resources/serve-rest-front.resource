@@ -58,7 +58,6 @@ Conferir que o usuário aparece na listagem
     ${elemento}      Get Table Cell Element    css=table    "Nome"    "${EMAIL}"
     ${usuario_nome}  Get Text  ${elemento}  ==  Mayara Fernandes
     Highlight Elements    ${elemento}
-    Take Screenshot       fullPage=${true}
 
 Cadastrar um novo produto
   Click              css=a[data-testid='cadastrarProdutos']
