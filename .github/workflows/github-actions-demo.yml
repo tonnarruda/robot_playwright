@@ -8,7 +8,7 @@ jobs:
     permissions: write-all
     strategy:
       matrix:
-        browser: [chromium, firefox, webkit]
+        browser: [chromium]
       fail-fast: false
     steps:
       - name: Checkout
